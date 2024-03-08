@@ -2,7 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Suspense, lazy } from "react";
 import { useRoutes } from "react-router-dom";
 import "./App.css";
-import "./global.css";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Home from "./pages/home";
