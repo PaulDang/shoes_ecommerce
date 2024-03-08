@@ -1,18 +1,18 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  toggle: false,
+  countNumber: 1,
 };
 
 const homeReducer = createSlice({
   name: "homeReducer",
   initialState,
   reducers: {
-    toggle(state, action) {
-      state.toggle = !action;
+    count(state, action) {
+      state.countNumber = action.payload;
     },
   },
 });
 const { actions, reducer } = homeReducer;
-export const { toggle } = actions;
+export const { count } = actions;
 export default reducer;
