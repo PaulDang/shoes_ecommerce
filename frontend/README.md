@@ -1,8 +1,15 @@
-# React + Vite
+# Tất cả các bước dưới đều thực hiện trong terminal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Sau khi clone src về thành công thì mọi người vào terminal và chạy các lệnh như bên dưới nhé
 
-Currently, two official plugins are available:
+# Step 1: Access folder
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+cd ./frontend
+
+# Step 2: Set up package
+
+npm install
+
+# Step 3: Run web
+
+npm run dev
